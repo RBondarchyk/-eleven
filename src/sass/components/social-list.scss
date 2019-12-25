@@ -1,0 +1,21 @@
+.social-list {
+    list-style-type: none;
+    min-width: 224px;
+    display: flex;
+&__item {
+    width: 56px;
+    height: 56px;
+    background-color: $third_color_lightyellow;
+}
+&__icon {
+    display: flex;
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+    fill: rgb(243, 129, 129);
+}
+&__item:hover, &__icon:hover {
+    background-color: rgb(243, 129, 129);
+    fill: $first_color_yellow;
+}
+}

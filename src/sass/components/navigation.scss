@@ -1,0 +1,55 @@
+.navigation {
+    display: flex;
+    height: 78px;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 159px;
+
+&__sitelogo {
+    display: flex;
+    align-items: center;
+}
+&__sitelogo-link, &__menu-link {
+    text-decoration: none;
+    color: $first_color_yellow;
+}
+&__sitelogo-link {
+    font-size: 30px;
+    font-family: $font-family-montserrat;
+    font-weight: 700;
+}
+&__menu-box {
+    list-style-type: none;
+    display: flex;
+    width: 492px;
+    align-content: center;
+    justify-content: space-between;
+}
+&__menu-link {
+    font-size: 14px;
+    font-family: $font-family-montserrat;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+&__menu-link:hover, &__sitelogo-link:hover {
+    color: $third_color_lightyellow;
+}
+&__menu-link::after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: $third_color_lightyellow;
+    margin-top: 11px;
+    opacity: 0;
+}
+&__menu-link:hover::after {
+    opacity: 1;
+}
+&__menu-button {
+    fill: $first_color_yellow;
+}
+&__menu-button:hover {
+    fill: $third_color_lightyellow;
+}
+}

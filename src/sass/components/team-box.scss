@@ -1,0 +1,31 @@
+
+.team-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 82px;
+
+&__team {
+    display: flex;
+    min-width: 382px;
+    min-height: 552px;
+    flex-direction: column;
+}
+&__link {
+    text-decoration: none;
+    color: $second_color_darkgray;
+}
+&__name {
+    font-family: $font-family-montserrat;
+    text-transform: uppercase;
+    color: $second_color_darkgray;
+    text-align: center;
+    margin-bottom: 10px;
+}
+&__name-after {
+    font-family: $font-family-roboto;
+    font-weight: 400;
+    font-style: italic;
+    color: rgb(153, 153, 153);
+    text-align: center;
+}
+}

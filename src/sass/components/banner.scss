@@ -1,0 +1,42 @@
+.banner {
+    background: linear-gradient(to top, rgba(252, 227, 138, .9), rgba(243, 129, 129, .9)), url(../images/Layer15@1X.png) no-repeat center/cover;
+    min-width: 100%;
+    min-height: 1000px;
+&__header-part {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+&__header-part1{
+  font-family: $font-family-kaushan;
+  font-size: 64px;
+  color: $first_color_yellow;
+  margin-bottom: 16px;
+}
+&__header-part2 {
+  font-family: $font-family-montserrat;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 104px;
+  color: $first_color_yellow;
+  margin-bottom: 120px;
+}
+&__link {
+  text-align: center;
+}
+&__link-learnmore {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: $font-family-montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  color: $first_color_yellow;
+  border: 4px solid $first_color_yellow;
+  padding: 12px 28px;
+}
+}
+@media 	only screen and (-webkit-min-device-pixel-ratio: 2) {
+  .banner  {
+    background: linear-gradient(to top, rgba(252, 227, 138, .9), rgba(243, 129, 129, .9)), url(../images/Layer15@2X.png) no-repeat center/cover;
+  }
+}

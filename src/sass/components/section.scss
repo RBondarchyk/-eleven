@@ -1,0 +1,31 @@
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    height: 260px;
+    justify-content: space-between;
+    margin-bottom: 80px;
+
+&__content {
+    display: flex;
+    position: relative;
+    width: 384px;
+    height: 90px;
+}
+&__text-header {
+    align-self: flex-start;
+    font-family: $font-family-montserrat;
+    text-transform: uppercase;
+    color: $second_color_darkgray;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+&__text-pharagraf {
+    flex-wrap: wrap;
+    font-family: $font-family-roboto;
+    font-size: 15px;
+    color: rgb(153, 153, 153);
+    line-height: 2;
+    align-content: flex-end;
+}
+}

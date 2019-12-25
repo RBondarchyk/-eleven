@@ -1,0 +1,38 @@
+.content-image {
+    display: flex;
+    margin-right: 28px;
+
+&__link {
+    width: 32px;
+    height: 32px;
+}
+&__image-section-alarm {
+    --bg-img-section: url(../images/icon/ALARM.svg);
+}
+&__image-section-graph {
+    --bg-img-section: url(../images/icon/LINEGRAPH.svg);
+}
+&__image-section-computer {
+    --bg-img-section: url(../images/icon/COMPUTER.svg);
+}
+&__image-section-book {
+    --bg-img-section: url(../images/icon/BOOK.svg);
+}
+&__image-section-home {
+    --bg-img-section: url(../images/icon/HOME.svg);
+}
+&__image-section-image {
+    --bg-img-section: url(../images/icon/IMAGE.svg);
+}
+&__link::after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 32px;
+    height: 32px;
+    background: var(--bg-img-section) no-repeat;
+    background-size: contain;
+    left: 0px;
+    top: 14px;
+}
+}

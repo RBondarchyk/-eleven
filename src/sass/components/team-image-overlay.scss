@@ -1,0 +1,33 @@
+.team-image {
+    position: relative;
+    margin-bottom: 20px;
+    transition-property: all;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+
+&__overlay {
+    position: absolute;
+    background: linear-gradient(to top rgba(243, 129, 129, 0.7), rgba(252, 227, 138, 0.7));
+    min-width: 382px;
+    min-height: 470px;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+}
+}
+.team-image:hover {
+    box-shadow: 10px 10px rgb(149, 225, 211);
+    transform: translate(-10px, -10px) rotateZ(0deg);
+    transition-property: all;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+}
+.team-image:hover .team-image__overlay {
+    opacity: 1;
+}
