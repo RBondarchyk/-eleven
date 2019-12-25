@@ -9,10 +9,10 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://rbondarchyk.github.io/eleventh-module",
+  "homepage": "https://rbondarchyk.github.io/-eleven",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RBondarchyk/eleventh-module"
+    "url": "git+https://github.com/RBondarchyk/-eleven"
   },
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "MIT",
